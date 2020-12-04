@@ -1,0 +1,21 @@
+modLoader="javafml"
+loaderVersion="[31,)"
+
+[[mods]]
+modId="biomass"
+version="1.0.0"
+displayName="Biomass"
+credits="Thank you to everyone working for vectorstudios in the mods devision!"
+displayURL="https://mods.vectorstudios.tk"
+authors="RG2N"
+
+[[dependencies.biomass]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

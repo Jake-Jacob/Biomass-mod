@@ -1,0 +1,784 @@
+[04Dec2020 10:54:49.478] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20200515.085601, --fml.mcVersion, 1.15.2, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 31.2.0, --version, MOD_DEV, --assetIndex, 1.15, --assetsDir, C:\Users\Trevor Smouter\.mcreator\gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ????????, --userProperties, {}]
+[04Dec2020 10:54:49.483] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 5.1.2+70+master.2845bb9 starting: java version 1.8.0_265 by BellSoft
+[04Dec2020 10:54:49.508] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [minecraft,fmldevdata,fmldevclient,fmldevserver,fmluserdevserver,testharness,fmluserdevdata,fmlclient,fmluserdevclient,fmlserver]
+[04Dec2020 10:54:49.524] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : [srgtomcp]
+[04Dec2020 10:54:49.539] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [eventbus,object_holder_definalize,runtime_enum_extender,accesstransformer,capability_inject_definalize,runtimedistcleaner]
+[04Dec2020 10:54:49.555] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[04Dec2020 10:54:49.563] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: []
+[04Dec2020 10:54:49.610] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [fml]
+[04Dec2020 10:54:49.610] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
+[04Dec2020 10:54:49.611] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
+[04Dec2020 10:54:49.612] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/]: Injecting tracing printstreams for STDOUT/STDERR.
+[04Dec2020 10:54:49.616] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 31.2
+[04Dec2020 10:54:49.616] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML 31.2 loading
+[04Dec2020 10:54:49.617] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 5.1.2+70+master.2845bb9
+[04Dec2020 10:54:49.617] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Initializing modjar URL handler
+[04Dec2020 10:54:49.618] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 2.1.1+55+master.08d32b9
+[04Dec2020 10:54:49.619] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found EventBus version : 2.2.0+59+master.4f71e48
+[04Dec2020 10:54:49.620] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
+[04Dec2020 10:54:49.625] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 2.0.3+8+master.ca72757
+[04Dec2020 10:54:49.627] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package implementation version 2.1.2+9+master.a8b4d92
+[04Dec2020 10:54:49.627] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package specification 3
+[04Dec2020 10:54:50.494] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[04Dec2020 10:54:50.502] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
+[04Dec2020 10:54:50.508] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
+[04Dec2020 10:54:50.523] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
+[04Dec2020 10:54:50.524] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
+[04Dec2020 10:54:50.524] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
+[04Dec2020 10:54:50.526] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing GAMEDIR directory : C:\Users\Trevor Smouter\MCreatorWorkspaces\biomass\run
+[04Dec2020 10:54:50.527] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is C:\Users\Trevor Smouter\MCreatorWorkspaces\biomass\run
+[04Dec2020 10:54:50.528] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing MODSDIR directory : C:\Users\Trevor Smouter\MCreatorWorkspaces\biomass\run\mods
+[04Dec2020 10:54:50.528] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is C:\Users\Trevor Smouter\MCreatorWorkspaces\biomass\run\mods
+[04Dec2020 10:54:50.529] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing CONFIGDIR directory : C:\Users\Trevor Smouter\MCreatorWorkspaces\biomass\run\config
+[04Dec2020 10:54:50.529] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is C:\Users\Trevor Smouter\MCreatorWorkspaces\biomass\run\config
+[04Dec2020 10:54:50.529] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is C:\Users\Trevor Smouter\MCreatorWorkspaces\biomass\run\config\fml.toml
+[04Dec2020 10:54:50.529] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading configuration
+[04Dec2020 10:54:50.596] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing default config directory directory : C:\Users\Trevor Smouter\MCreatorWorkspaces\biomass\run\defaultconfigs
+[04Dec2020 10:54:50.596] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
+[04Dec2020 10:54:50.597] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Using fmluserdevclient as launch service
+[04Dec2020 10:54:51.072] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Received command line version data  : MC Version: '1.15.2' MCP Version: '20200515.085601' Forge Version: '31.2.0' Forge group: 'net.minecraftforge'
+[04Dec2020 10:54:51.074] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR forge at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1\forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-recomp.jar
+[04Dec2020 10:54:51.075] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR mcdata at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\forge_gradle\minecraft_repo\versions\1.15.2\client-extra.jar
+[04Dec2020 10:54:51.076] [main/DEBUG] [net.minecraftforge.userdev.FMLUserdevLaunchProvider/CORE]: Injecting maven path C:\Users\Trevor Smouter\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo
+[04Dec2020 10:54:51.077] [main/DEBUG] [net.minecraftforge.fml.loading.FMLCommonLaunchHandler/CORE]: Got mod coordinates examplemod%%C:\Users\Trevor Smouter\MCreatorWorkspaces\biomass\build\resources\main;examplemod%%C:\Users\Trevor Smouter\MCreatorWorkspaces\biomass\build\classes\java\main from env
+[04Dec2020 10:54:51.080] [main/DEBUG] [net.minecraftforge.fml.loading.FMLCommonLaunchHandler/CORE]: Found supplied mod coordinates [{examplemod=[C:\Users\Trevor Smouter\MCreatorWorkspaces\biomass\build\resources\main, C:\Users\Trevor Smouter\MCreatorWorkspaces\biomass\build\classes\java\main]}]
+[04Dec2020 10:54:51.089] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 2 language providers
+[04Dec2020 10:54:51.090] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider javafml, version 31.2
+[04Dec2020 10:54:51.150] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider minecraft, version 1
+[04Dec2020 10:54:51.150] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Skipping adding forge jar - javafml is already present
+[04Dec2020 10:54:51.169] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
+[04Dec2020 10:54:51.170] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'mcp'
+[04Dec2020 10:54:51.171] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {srg=srgtomcp:1234}
+[04Dec2020 10:54:51.171] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
+[04Dec2020 10:54:51.172] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
+[04Dec2020 10:54:51.172] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
+[04Dec2020 10:54:51.235] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR classpath_mod at path C:\Users\Trevor Smouter\MCreatorWorkspaces\biomass\build\resources\main
+[04Dec2020 10:54:51.236] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR classpath_mod at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1\forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-recomp.jar
+[04Dec2020 10:54:51.236] [main/DEBUG] [net.minecraftforge.userdev.ClasspathLocator/CORE]: Found classpath mod: C:\Users\Trevor Smouter\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1\forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-recomp.jar
+[04Dec2020 10:54:51.240] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Program Files\Pylo\MCreator\jdk\jre\lib\ext\jfxrt.jar
+[04Dec2020 10:54:51.242] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1\forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-recomp.jar
+[04Dec2020 10:54:51.247] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1\forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-launcher.jar
+[04Dec2020 10:54:51.248] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\forge_gradle\minecraft_repo\versions\1.15.2\client-extra.jar
+[04Dec2020 10:54:51.290] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\eventbus\2.2.0\e663ad1f795b81da8a132c8fde40580b05c2343d\eventbus-2.2.0-service.jar
+[04Dec2020 10:54:51.290] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\coremods\2.0.3\9e3f5323f6a2c3ac04fa27481cbeeb48f89757bd\coremods-2.0.3.jar
+[04Dec2020 10:54:51.291] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\forgespi\2.1.2\867d339ca81f375c560da6d37084066e7f537f15\forgespi-2.1.2.jar
+[04Dec2020 10:54:51.292] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\accesstransformers\2.1.1\1d1e439ef345ab5fd76df679de70a0c35f03bf4a\accesstransformers-2.1.1-shadowed.jar
+[04Dec2020 10:54:51.293] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\cpw.mods\modlauncher\5.1.2\42f764429585b8a12ba42d43a02c0c9018710052\modlauncher-5.1.2.jar
+[04Dec2020 10:54:51.294] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\cpw.mods\modlauncher\5.1.2\63c817b0e96e6accbb602e7de7c938fc444025f3\modlauncher-5.1.2-api.jar
+[04Dec2020 10:54:51.294] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.2\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\jsr305-3.0.2.jar
+[04Dec2020 10:54:51.295] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mergetool\1.0.9\d1e1ba354a40b5703340b5cb02fdca489cff3646\mergetool-1.0.9-api.jar
+[04Dec2020 10:54:51.296] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-commons\7.2\ca2954e8d92a05bacc28ff465b25c70e0f512497\asm-commons-7.2.jar
+[04Dec2020 10:54:51.296] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-util\6.2\a9690730f92cc79eeadc20e400ebb41eccce10b1\asm-util-6.2.jar
+[04Dec2020 10:54:51.297] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-analysis\7.2\b6e6abe057f23630113f4167c34bda7086691258\asm-analysis-7.2.jar
+[04Dec2020 10:54:51.298] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\7.2\3a23cc36edaf8fc5a89cb100182758ccb5991487\asm-tree-7.2.jar
+[04Dec2020 10:54:51.298] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\7.2\fa637eb67eb7628c915d73762b681ae7ff0b9731\asm-7.2.jar
+[04Dec2020 10:54:51.299] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\cpw.mods\grossjava9hacks\1.3.0\1a922de964d0c19d864fbcba2678c1a1c4602c35\grossjava9hacks-1.3.0.jar
+[04Dec2020 10:54:51.299] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\unsafe\0.2.0\54d7a0a5e8fdb71b973025caa46f341ae5904f39\unsafe-0.2.0.jar
+[04Dec2020 10:54:51.300] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\com.electronwill.night-config\toml\3.6.2\3ac4263d06433da39a5eee95e2679f1642d921f0\toml-3.6.2.jar
+[04Dec2020 10:54:51.301] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\com.electronwill.night-config\core\3.6.2\56f6500038861d4a8832072676da7bf7916217d0\core-3.6.2.jar
+[04Dec2020 10:54:51.301] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\org.jline\jline\3.12.1\de2bd909cb9f8eaa741bd03df4a1bd3f6eb593c7\jline-3.12.1.jar
+[04Dec2020 10:54:51.302] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.6.3\f8ff8032903882376e8d000c51e3e16d20fc7df7\maven-artifact-3.6.3.jar
+[04Dec2020 10:54:51.303] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\net.jodah\typetools\0.8.3\98f84f353457629e81cc6827224871b1a8faa7af\typetools-0.8.3.jar
+[04Dec2020 10:54:51.304] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\net.minecrell\terminalconsoleappender\1.2.0\96d02cd3b384ff015a8fef4223bcb4ccf1717c95\terminalconsoleappender-1.2.0.jar
+[04Dec2020 10:54:51.304] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.11.2\6c2fb3f5b7cd27504726aef1b674b542a0c9cf53\log4j-core-2.11.2.jar
+[04Dec2020 10:54:51.305] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.11.2\f5e9a2ffca496057d6891a3de65128efc636e26e\log4j-api-2.11.2.jar
+[04Dec2020 10:54:51.306] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\5.0.4\4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c\jopt-simple-5.0.4.jar
+[04Dec2020 10:54:51.307] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\patchy\1.1\aef610b34a1be37fa851825f12372b78424d8903\patchy-1.1.jar
+[04Dec2020 10:54:51.307] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\oshi-project\oshi-core\1.1\9ddf7b048a8d701be231c0f4f95fd986198fd2d8\oshi-core-1.1.jar
+[04Dec2020 10:54:51.308] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna\4.4.0\cb208278274bf12ebdb56c61bd7407e6f774d65a\jna-4.4.0.jar
+[04Dec2020 10:54:51.309] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\net.java.dev.jna\platform\3.4.0\e3f70017be8100d3d6923f50b3d2ee17714e9c13\platform-3.4.0.jar
+[04Dec2020 10:54:51.309] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\com.ibm.icu\icu4j-core-mojang\51.2\63d216a9311cca6be337c1e458e587f99d382b84\icu4j-core-mojang-51.2.jar
+[04Dec2020 10:54:51.310] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\javabridge\1.0.22\6aa6453aa99a52a5cd91749da1af6ab70e082ab3\javabridge-1.0.22.jar
+[04Dec2020 10:54:51.311] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\io.netty\netty-all\4.1.25.Final\d0626cd3108294d1d58c05859add27b4ef21f83b\netty-all-4.1.25.Final.jar
+[04Dec2020 10:54:51.312] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\com.google.guava\guava\21.0\3a3d111be1be1b745edfa7d91678a12d7ed38709\guava-21.0.jar
+[04Dec2020 10:54:51.312] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.8.1\6505a72a097d9270f7a9e7bf42c4238283247755\commons-lang3-3.8.1.jar
+[04Dec2020 10:54:51.313] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.5\2852e6e05fbb95076fc091f6d1780f1f8fe35e0f\commons-io-2.5.jar
+[04Dec2020 10:54:51.314] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient\4.3.3\18f4247ff4572a074444572cee34647c43e7c9c7\httpclient-4.3.3.jar
+[04Dec2020 10:54:51.315] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.10\4b95f4897fa13f2cd904aee711aeafc0c5295cd8\commons-codec-1.10.jar
+[04Dec2020 10:54:51.316] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\net.java.jinput\jinput\2.0.5\39c7796b469a600f72380316f6b1f11db6c2c7c4\jinput-2.0.5.jar
+[04Dec2020 10:54:51.316] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\net.java.jutils\jutils\1.0.0\e12fe1fda814bd348c1579329c86943d2cd3c6a6\jutils-1.0.0.jar
+[04Dec2020 10:54:51.317] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\brigadier\1.0.17\c6b7dc51dd44379cc751b7504816006e9be4b1e6\brigadier-1.0.17.jar
+[04Dec2020 10:54:51.362] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\datafixerupper\2.0.24\944c24a8519981847ffb36c6dcd059d96fcb4b0\datafixerupper-2.0.24.jar
+[04Dec2020 10:54:51.363] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.0\c4ba5371a29ac9b2ad6129b1d39ea38750043eff\gson-2.8.0.jar
+[04Dec2020 10:54:51.364] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\authlib\1.5.25\9834cdf236c22e84b946bba989e2f94ef5897c3c\authlib-1.5.25.jar
+[04Dec2020 10:54:51.365] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.commons\commons-compress\1.8.1\a698750c16740fd5b3871425f4cb3bbaa87f529d\commons-compress-1.8.1.jar
+[04Dec2020 10:54:51.366] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.1.3\f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f\commons-logging-1.1.3.jar
+[04Dec2020 10:54:51.367] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.3.2\31fbbff1ddbf98f3aa7377c94d33b0447c646b6e\httpcore-4.3.2.jar
+[04Dec2020 10:54:51.368] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\it.unimi.dsi\fastutil\8.2.1\5ad88f325e424f8dbc2be5459e21ea5cab3864e9\fastutil-8.2.1.jar
+[04Dec2020 10:54:51.368] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.2.2\ee8e57a79300f78294576d87c4a587f8c99402e2\lwjgl-jemalloc-3.2.2.jar
+[04Dec2020 10:54:51.369] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.2.2\338b25b99da3ba5f441f6492f2ce2a9c608860ed\lwjgl-jemalloc-3.2.2-natives-windows.jar
+[04Dec2020 10:54:51.370] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.2.2\2b772a102b0a11ee5f2109a5b136f4dc7c630827\lwjgl-openal-3.2.2.jar
+[04Dec2020 10:54:51.370] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.2.2\ec20a7d42a2438528fca87e60b1705f1e2339ddb\lwjgl-openal-3.2.2-natives-windows.jar
+[04Dec2020 10:54:51.371] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.2.2\6ac5bb88b44c43ea195a570aab059f63da004cd8\lwjgl-opengl-3.2.2.jar
+[04Dec2020 10:54:51.378] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.2.2\d8dcdc91066cae2d2d8279cb4a9f9f05d9525826\lwjgl-opengl-3.2.2-natives-windows.jar
+[04Dec2020 10:54:51.379] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.2.2\d3ad4df38e400b8afba1de63f84338809399df5b\lwjgl-glfw-3.2.2.jar
+[04Dec2020 10:54:51.380] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.2.2\dc6826d636bf796b33a49038c354210e661bfc17\lwjgl-glfw-3.2.2-natives-windows.jar
+[04Dec2020 10:54:51.381] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.2.2\3b8e6ebc5851dd3d17e37e5cadce2eff2a429f0f\lwjgl-stb-3.2.2.jar
+[04Dec2020 10:54:51.381] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.2.2\811f705cbb29e8ae8d60bdf8fdd38c0c123ad3ef\lwjgl-stb-3.2.2-natives-windows.jar
+[04Dec2020 10:54:51.382] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.2.2\fcbe606c8f8da6f8f9a05e2c540eb1ee8632b0e9\lwjgl-tinyfd-3.2.2.jar
+[04Dec2020 10:54:51.383] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.2.2\e9115958773644e863332a6a06488d26f9e1fc9f\lwjgl-tinyfd-3.2.2-natives-windows.jar
+[04Dec2020 10:54:51.383] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.2.2\8ad6294407e15780b43e84929c40e4c5e997972e\lwjgl-3.2.2.jar
+[04Dec2020 10:54:51.384] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.2.2\5359f3aa50d36352815fc662ea73e1c00d22170\lwjgl-3.2.2-natives-windows.jar
+[04Dec2020 10:54:51.385] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\text2speech\1.11.3\f378f889797edd7df8d32272c06ca80a1b6b0f58\text2speech-1.11.3.jar
+[04Dec2020 10:54:51.386] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\text2speech\1.11.3\c0b242c0091be5acbf303263c7eeeaedd70544c7\text2speech-1.11.3-natives-windows.jar
+[04Dec2020 10:54:51.387] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\org.antlr\antlr4-runtime\4.7.2\e27d8ab4f984f9d186f54da984a6ab1cccac755e\antlr4-runtime-4.7.2.jar
+[04Dec2020 10:54:51.388] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\org.jline\jline-reader\3.12.1\4382ab1382c7b6f379377ed5f665dc2f6e1218bc\jline-reader-3.12.1.jar
+[04Dec2020 10:54:51.388] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\org.codehaus.plexus\plexus-utils\3.2.1\13b015768e0d04849d2794e4c47eb02d01a0de32\plexus-utils-3.2.1.jar
+[04Dec2020 10:54:51.389] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Trevor Smouter\.mcreator\gradle\caches\modules-2\files-2.1\org.jline\jline-terminal\3.12.1\c777448314e050d980a6b697c140f3bfe9eb7416\jline-terminal-3.12.1.jar
+[04Dec2020 10:54:51.393] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
+[04Dec2020 10:54:51.440] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (userdev classpath:null),(mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null)
+[04Dec2020 10:54:51.472] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ExplodedDirectoryLocator/LOADING]: Found exploded directory mod manifest at C:\Users\Trevor Smouter\MCreatorWorkspaces\biomass\build\resources\main\META-INF\mods.toml
+[04Dec2020 10:54:51.476] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Trevor Smouter\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1\forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-recomp.jar
+[04Dec2020 10:54:51.531] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-recomp.jar with {forge} mods - versions {31.2.0}
+[04Dec2020 10:54:51.532] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Trevor Smouter\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1\forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-recomp.jar with language javafml
+[04Dec2020 10:54:51.591] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod fieldtomethodtransformers with Javascript path META-INF/fieldtomethodtransformers.js
+[04Dec2020 10:54:51.592] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod META-INF/fieldtomethodtransformers.js
+[04Dec2020 10:54:51.592] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Trevor Smouter\MCreatorWorkspaces\biomass\build\resources\main
+[04Dec2020 10:54:51.597] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file main with {biomass} mods - versions {1.0.0}
+[04Dec2020 10:54:51.598] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Trevor Smouter\MCreatorWorkspaces\biomass\build\resources\main with language javafml
+[04Dec2020 10:54:51.600] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Trevor Smouter\.mcreator\gradle\caches\forge_gradle\minecraft_repo\versions\1.15.2\client-extra.jar
+[04Dec2020 10:54:51.608] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file client-extra.jar with {minecraft} mods - versions {1.15.2}
+[04Dec2020 10:54:51.608] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Trevor Smouter\.mcreator\gradle\caches\forge_gradle\minecraft_repo\versions\1.15.2\client-extra.jar with language minecraft
+[04Dec2020 10:54:51.625] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 1 mandatory requirements
+[04Dec2020 10:54:51.626] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 0 mandatory mod requirements missing
+[04Dec2020 10:54:52.092] [main/DEBUG] [net.minecraftforge.userdev.MCPNamingService/CORE]: Loaded 12295 method mappings from methods.csv
+[04Dec2020 10:54:52.122] [main/DEBUG] [net.minecraftforge.userdev.MCPNamingService/CORE]: Loaded 16430 field mappings from fields.csv
+[04Dec2020 10:54:52.156] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
+[04Dec2020 10:54:52.156] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
+[04Dec2020 10:54:52.157] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
+[04Dec2020 10:54:52.157] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading coremod transformers
+[04Dec2020 10:54:52.158] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from META-INF/fieldtomethodtransformers.js
+[04Dec2020 10:54:52.315] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[04Dec2020 10:54:52.327] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@687a762c to Target : CLASS {Lnet/minecraft/potion/EffectInstance;} {} {V}
+[04Dec2020 10:54:52.329] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@aa22f1c to Target : CLASS {Lnet/minecraft/block/FlowingFluidBlock;} {} {V}
+[04Dec2020 10:54:52.329] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@55e7a35c to Target : CLASS {Lnet/minecraft/item/BucketItem;} {} {V}
+[04Dec2020 10:54:52.330] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@37cd92d6 to Target : CLASS {Lnet/minecraft/block/StairsBlock;} {} {V}
+[04Dec2020 10:54:52.330] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@5922ae77 to Target : CLASS {Lnet/minecraft/block/FlowerPotBlock;} {} {V}
+[04Dec2020 10:54:52.330] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@4263b080 to Target : CLASS {Lnet/minecraft/item/FishBucketItem;} {} {V}
+[04Dec2020 10:54:52.331] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
+[04Dec2020 10:54:52.347] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Trevor Smouter\.mcreator\gradle\caches\forge_gradle\assets, --assetIndex, 1.15, --username, Dev, --accessToken, ????????, --userProperties, {}]
+[04Dec2020 10:54:52.348] [main/DEBUG] [net.minecraftforge.userdev.FMLUserdevClientLaunchProvider/CORE]: Launching minecraft in cpw.mods.modlauncher.TransformingClassLoader@4b4dd216 with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Trevor Smouter\.mcreator\gradle\caches\forge_gradle\assets, --assetIndex, 1.15, --username, Dev, --accessToken, DONT_CRASH, --userProperties, {}]
+[04Dec2020 10:54:55.786] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[04Dec2020 10:54:56.993] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/block/FlowingFluidBlock
+[04Dec2020 10:54:57.163] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/block/StairsBlock
+[04Dec2020 10:54:57.385] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/block/FlowerPotBlock
+[04Dec2020 10:55:05.720] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/item/BucketItem
+[04Dec2020 10:55:05.769] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/item/FishBucketItem
+[04Dec2020 10:55:06.502] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/potion/EffectInstance
+[04Dec2020 10:55:13.740] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 build 10
+[04Dec2020 10:55:14.627] [Render thread/DEBUG] [net.minecraftforge.fml.ForgeI18n/CORE]: Loading I18N data entries: 4535
+[04Dec2020 10:55:15.030] [Render thread/DEBUG] [net.minecraftforge.fml.ModLoader/CORE]: Loading Network data for FML net version: FML2
+[04Dec2020 10:55:15.066] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Using 8 threads for parallel mod-loading
+[04Dec2020 10:55:15.071] [Render thread/DEBUG] [net.minecraftforge.fml.ModLoader/LOADING]: ModContainer is cpw.mods.modlauncher.TransformingClassLoader@4b4dd216
+[04Dec2020 10:55:15.083] [Render thread/DEBUG] [net.minecraftforge.fml.ModLoader/LOADING]: ModContainer is cpw.mods.modlauncher.TransformingClassLoader@4b4dd216
+[04Dec2020 10:55:15.087] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@4b4dd216 - got cpw.mods.modlauncher.TransformingClassLoader@4b4dd216
+[04Dec2020 10:55:15.088] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.vectormods.biomass.BiomassMod with classLoader cpw.mods.modlauncher.TransformingClassLoader@4b4dd216 & cpw.mods.modlauncher.TransformingClassLoader@4b4dd216
+[04Dec2020 10:55:15.100] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loaded modclass net.vectormods.biomass.BiomassMod with cpw.mods.modlauncher.TransformingClassLoader@4b4dd216
+[04Dec2020 10:55:15.100] [Render thread/DEBUG] [net.minecraftforge.fml.ModLoader/LOADING]: ModContainer is cpw.mods.modlauncher.TransformingClassLoader@4b4dd216
+[04Dec2020 10:55:15.101] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@4b4dd216 - got cpw.mods.modlauncher.TransformingClassLoader@4b4dd216
+[04Dec2020 10:55:15.101] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.minecraftforge.common.ForgeMod with classLoader cpw.mods.modlauncher.TransformingClassLoader@4b4dd216 & cpw.mods.modlauncher.TransformingClassLoader@4b4dd216
+[04Dec2020 10:55:15.118] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loaded modclass net.minecraftforge.common.ForgeMod with cpw.mods.modlauncher.TransformingClassLoader@4b4dd216
+[04Dec2020 10:55:15.133] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching parallel event LifecycleEvent:CONSTRUCT
+[04Dec2020 10:55:15.140] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loading mod instance biomass of type net.vectormods.biomass.BiomassMod
+[04Dec2020 10:55:15.140] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loading mod instance forge of type net.minecraftforge.common.ForgeMod
+[04Dec2020 10:55:15.140] [modloading-worker-3/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Forge Version package package net.minecraftforge.versions.forge, Forge, version 31.2 from cpw.mods.modlauncher.TransformingClassLoader@4b4dd216
+[04Dec2020 10:55:15.140] [modloading-worker-3/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge version 31.2.0
+[04Dec2020 10:55:15.141] [modloading-worker-3/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge spec 31.2
+[04Dec2020 10:55:15.141] [modloading-worker-3/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge group net.minecraftforge
+[04Dec2020 10:55:15.145] [modloading-worker-3/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MC version information 1.15.2
+[04Dec2020 10:55:15.145] [modloading-worker-3/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MCP version information 20200515.085601
+[04Dec2020 10:55:15.145] [modloading-worker-3/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 31.2.0, for MC 1.15.2 with MCP 20200515.085601
+[04Dec2020 10:55:15.145] [modloading-worker-3/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v31.2.0 Initialized
+[04Dec2020 10:55:15.204] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loaded mod instance biomass of type net.vectormods.biomass.BiomassMod
+[04Dec2020 10:55:15.205] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Injecting Automatic event subscribers for biomass
+[04Dec2020 10:55:15.219] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for biomass
+[04Dec2020 10:55:15.220] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Completed Automatic event subscribers for biomass
+[04Dec2020 10:55:15.269] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-client.toml for forge tracking
+[04Dec2020 10:55:15.269] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-server.toml for forge tracking
+[04Dec2020 10:55:15.272] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loaded mod instance forge of type net.minecraftforge.common.ForgeMod
+[04Dec2020 10:55:15.272] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Injecting Automatic event subscribers for forge
+[04Dec2020 10:55:15.272] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for forge
+[04Dec2020 10:55:15.279] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.client.model.ModelDataManager to FORGE
+[04Dec2020 10:55:15.294] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Completed Automatic event subscribers for forge
+[04Dec2020 10:55:15.296] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:CREATE_REGISTRIES
+[04Dec2020 10:55:15.297] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid biomass : RegistryEvent.NewRegistry
+[04Dec2020 10:55:15.297] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid biomass : RegistryEvent.NewRegistry
+[04Dec2020 10:55:15.297] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.NewRegistry
+[04Dec2020 10:55:15.297] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.NewRegistry
+[04Dec2020 10:55:15.305] [Render thread/DEBUG] [net.minecraftforge.registries.ObjectHolderRegistry/REGISTRIES]: Processing ObjectHolder annotations
+[04Dec2020 10:55:15.329] [Render thread/DEBUG] [net.minecraftforge.registries.ObjectHolderRegistry/REGISTRIES]: Found 2580 ObjectHolder annotations
+[04Dec2020 10:55:15.343] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[04Dec2020 10:55:15.352] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid biomass : RegistryEvent.Register<minecraft:block>
+[04Dec2020 10:55:15.353] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid biomass : RegistryEvent.Register<minecraft:block>
+[04Dec2020 10:55:15.353] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:block>
+[04Dec2020 10:55:15.354] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:block>
+[04Dec2020 10:55:15.354] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:block
+[04Dec2020 10:55:15.357] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:block
+[04Dec2020 10:55:15.357] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[04Dec2020 10:55:15.357] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid biomass : RegistryEvent.Register<minecraft:item>
+[04Dec2020 10:55:15.358] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid biomass : RegistryEvent.Register<minecraft:item>
+[04Dec2020 10:55:15.358] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:item>
+[04Dec2020 10:55:15.358] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:item>
+[04Dec2020 10:55:15.358] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:item
+[04Dec2020 10:55:15.359] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:item
+[04Dec2020 10:55:15.359] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[04Dec2020 10:55:15.360] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid biomass : RegistryEvent.Register<forge:loot_modifier_serializers>
+[04Dec2020 10:55:15.360] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid biomass : RegistryEvent.Register<forge:loot_modifier_serializers>
+[04Dec2020 10:55:15.360] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<forge:loot_modifier_serializers>
+[04Dec2020 10:55:15.360] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<forge:loot_modifier_serializers>
+[04Dec2020 10:55:15.360] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: forge:loot_modifier_serializers
+[04Dec2020 10:55:15.360] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: forge:loot_modifier_serializers
+[04Dec2020 10:55:15.360] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[04Dec2020 10:55:15.360] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid biomass : RegistryEvent.Register<forge:moddimensions>
+[04Dec2020 10:55:15.361] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid biomass : RegistryEvent.Register<forge:moddimensions>
+[04Dec2020 10:55:15.361] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<forge:moddimensions>
+[04Dec2020 10:55:15.361] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<forge:moddimensions>
+[04Dec2020 10:55:15.361] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: forge:moddimensions
+[04Dec2020 10:55:15.361] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: forge:moddimensions
+[04Dec2020 10:55:15.361] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[04Dec2020 10:55:15.361] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid biomass : RegistryEvent.Register<minecraft:activities>
+[04Dec2020 10:55:15.362] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid biomass : RegistryEvent.Register<minecraft:activities>
+[04Dec2020 10:55:15.362] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:activities>
+[04Dec2020 10:55:15.362] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:activities>
+[04Dec2020 10:55:15.362] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:activities
+[04Dec2020 10:55:15.362] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:activities
+[04Dec2020 10:55:15.362] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[04Dec2020 10:55:15.363] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid biomass : RegistryEvent.Register<minecraft:biome>
+[04Dec2020 10:55:15.364] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid biomass : RegistryEvent.Register<minecraft:biome>
+[04Dec2020 10:55:15.364] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:biome>
+[04Dec2020 10:55:15.364] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:biome>
+[04Dec2020 10:55:15.364] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:biome
+[04Dec2020 10:55:15.365] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:biome
+[04Dec2020 10:55:15.365] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[04Dec2020 10:55:15.365] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid biomass : RegistryEvent.Register<minecraft:biome_source_type>
+[04Dec2020 10:55:15.365] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid biomass : RegistryEvent.Register<minecraft:biome_source_type>
+[04Dec2020 10:55:15.365] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:biome_source_type>
+[04Dec2020 10:55:15.366] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:biome_source_type>
+[04Dec2020 10:55:15.366] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:biome_source_type
+[04Dec2020 10:55:15.366] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:biome_source_type
+[04Dec2020 10:55:15.366] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[04Dec2020 10:55:15.366] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid biomass : RegistryEvent.Register<minecraft:block_entity_type>
+[04Dec2020 10:55:15.367] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid biomass : RegistryEvent.Register<minecraft:block_entity_type>
+[04Dec2020 10:55:15.367] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:block_entity_type>
+[04Dec2020 10:55:15.367] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:block_entity_type>
+[04Dec2020 10:55:15.367] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:block_entity_type
+[04Dec2020 10:55:15.367] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:block_entity_type
+[04Dec2020 10:55:15.367] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[04Dec2020 10:55:15.367] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid biomass : RegistryEvent.Register<minecraft:carver>
+[04Dec2020 10:55:15.367] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid biomass : RegistryEvent.Register<minecraft:carver>
+[04Dec2020 10:55:15.367] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:carver>
+[04Dec2020 10:55:15.367] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:carver>
+[04Dec2020 10:55:15.367] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:carver
+[04Dec2020 10:55:15.368] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:carver
+[04Dec2020 10:55:15.368] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[04Dec2020 10:55:15.368] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid biomass : RegistryEvent.Register<minecraft:chunk_generator_type>
+[04Dec2020 10:55:15.368] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid biomass : RegistryEvent.Register<minecraft:chunk_generator_type>
+[04Dec2020 10:55:15.368] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:chunk_generator_type>
+[04Dec2020 10:55:15.368] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:chunk_generator_type>
+[04Dec2020 10:55:15.368] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:chunk_generator_type
+[04Dec2020 10:55:15.368] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:chunk_generator_type
+[04Dec2020 10:55:15.369] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[04Dec2020 10:55:15.369] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid biomass : RegistryEvent.Register<minecraft:chunk_status>
+[04Dec2020 10:55:15.369] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid biomass : RegistryEvent.Register<minecraft:chunk_status>
+[04Dec2020 10:55:15.369] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:chunk_status>
+[04Dec2020 10:55:15.369] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:chunk_status>
+[04Dec2020 10:55:15.369] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:chunk_status
+[04Dec2020 10:55:15.369] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:chunk_status
+[04Dec2020 10:55:15.370] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[04Dec2020 10:55:15.370] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid biomass : RegistryEvent.Register<minecraft:dataserializers>
+[04Dec2020 10:55:15.370] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid biomass : RegistryEvent.Register<minecraft:dataserializers>
+[04Dec2020 10:55:15.370] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:dataserializers>
+[04Dec2020 10:55:15.370] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:dataserializers>
+[04Dec2020 10:55:15.370] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:dataserializers
+[04Dec2020 10:55:15.371] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:dataserializers
+[04Dec2020 10:55:15.371] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[04Dec2020 10:55:15.371] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid biomass : RegistryEvent.Register<minecraft:decorator>
+[04Dec2020 10:55:15.371] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid biomass : RegistryEvent.Register<minecraft:decorator>
+[04Dec2020 10:55:15.371] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:decorator>
+[04Dec2020 10:55:15.371] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:decorator>
+[04Dec2020 10:55:15.371] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:decorator
+[04Dec2020 10:55:15.372] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:decorator
+[04Dec2020 10:55:15.372] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[04Dec2020 10:55:15.372] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid biomass : RegistryEvent.Register<minecraft:enchantment>
+[04Dec2020 10:55:15.373] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid biomass : RegistryEvent.Register<minecraft:enchantment>
+[04Dec2020 10:55:15.373] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:enchantment>
+[04Dec2020 10:55:15.373] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:enchantment>
+[04Dec2020 10:55:15.373] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:enchantment
+[04Dec2020 10:55:15.374] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:enchantment
+[04Dec2020 10:55:15.374] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[04Dec2020 10:55:15.374] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid biomass : RegistryEvent.Register<minecraft:entity_type>
+[04Dec2020 10:55:15.375] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid biomass : RegistryEvent.Register<minecraft:entity_type>
+[04Dec2020 10:55:15.375] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:entity_type>
+[04Dec2020 10:55:15.375] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:entity_type>
+[04Dec2020 10:55:15.375] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:entity_type
+[04Dec2020 10:55:15.375] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:entity_type
+[04Dec2020 10:55:15.376] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[04Dec2020 10:55:15.376] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid biomass : RegistryEvent.Register<minecraft:feature>
+[04Dec2020 10:55:15.376] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid biomass : RegistryEvent.Register<minecraft:feature>
+[04Dec2020 10:55:15.376] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:feature>
+[04Dec2020 10:55:15.376] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:feature>
+[04Dec2020 10:55:15.376] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:feature
+[04Dec2020 10:55:15.376] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:feature
+[04Dec2020 10:55:15.376] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[04Dec2020 10:55:15.377] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid biomass : RegistryEvent.Register<minecraft:fluid>
+[04Dec2020 10:55:15.377] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid biomass : RegistryEvent.Register<minecraft:fluid>
+[04Dec2020 10:55:15.377] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:fluid>
+[04Dec2020 10:55:15.377] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:fluid>
+[04Dec2020 10:55:15.377] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:fluid
+[04Dec2020 10:55:15.377] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:fluid
+[04Dec2020 10:55:15.378] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[04Dec2020 10:55:15.378] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid biomass : RegistryEvent.Register<minecraft:memory_module_type>
+[04Dec2020 10:55:15.378] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid biomass : RegistryEvent.Register<minecraft:memory_module_type>
+[04Dec2020 10:55:15.378] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:memory_module_type>
+[04Dec2020 10:55:15.378] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:memory_module_type>
+[04Dec2020 10:55:15.378] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:memory_module_type
+[04Dec2020 10:55:15.378] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:memory_module_type
+[04Dec2020 10:55:15.379] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[04Dec2020 10:55:15.379] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid biomass : RegistryEvent.Register<minecraft:menu>
+[04Dec2020 10:55:15.379] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid biomass : RegistryEvent.Register<minecraft:menu>
+[04Dec2020 10:55:15.379] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:menu>
+[04Dec2020 10:55:15.379] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:menu>
+[04Dec2020 10:55:15.379] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:menu
+[04Dec2020 10:55:15.380] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:menu
+[04Dec2020 10:55:15.380] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[04Dec2020 10:55:15.380] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid biomass : RegistryEvent.Register<minecraft:mob_effect>
+[04Dec2020 10:55:15.380] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid biomass : RegistryEvent.Register<minecraft:mob_effect>
+[04Dec2020 10:55:15.380] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:mob_effect>
+[04Dec2020 10:55:15.380] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:mob_effect>
+[04Dec2020 10:55:15.380] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:mob_effect
+[04Dec2020 10:55:15.380] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:mob_effect
+[04Dec2020 10:55:15.380] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[04Dec2020 10:55:15.381] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid biomass : RegistryEvent.Register<minecraft:motive>
+[04Dec2020 10:55:15.381] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid biomass : RegistryEvent.Register<minecraft:motive>
+[04Dec2020 10:55:15.381] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:motive>
+[04Dec2020 10:55:15.381] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:motive>
+[04Dec2020 10:55:15.381] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:motive
+[04Dec2020 10:55:15.381] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:motive
+[04Dec2020 10:55:15.381] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[04Dec2020 10:55:15.381] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid biomass : RegistryEvent.Register<minecraft:particle_type>
+[04Dec2020 10:55:15.382] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid biomass : RegistryEvent.Register<minecraft:particle_type>
+[04Dec2020 10:55:15.382] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:particle_type>
+[04Dec2020 10:55:15.382] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:particle_type>
+[04Dec2020 10:55:15.382] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:particle_type
+[04Dec2020 10:55:15.383] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:particle_type
+[04Dec2020 10:55:15.383] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[04Dec2020 10:55:15.383] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid biomass : RegistryEvent.Register<minecraft:point_of_interest_type>
+[04Dec2020 10:55:15.383] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid biomass : RegistryEvent.Register<minecraft:point_of_interest_type>
+[04Dec2020 10:55:15.383] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:point_of_interest_type>
+[04Dec2020 10:55:15.384] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:point_of_interest_type>
+[04Dec2020 10:55:15.384] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:point_of_interest_type
+[04Dec2020 10:55:15.384] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:point_of_interest_type
+[04Dec2020 10:55:15.384] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[04Dec2020 10:55:15.384] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid biomass : RegistryEvent.Register<minecraft:potion>
+[04Dec2020 10:55:15.384] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid biomass : RegistryEvent.Register<minecraft:potion>
+[04Dec2020 10:55:15.385] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:potion>
+[04Dec2020 10:55:15.385] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:potion>
+[04Dec2020 10:55:15.385] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:potion
+[04Dec2020 10:55:15.385] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:potion
+[04Dec2020 10:55:15.386] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[04Dec2020 10:55:15.386] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid biomass : RegistryEvent.Register<minecraft:recipe_serializer>
+[04Dec2020 10:55:15.386] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid biomass : RegistryEvent.Register<minecraft:recipe_serializer>
+[04Dec2020 10:55:15.386] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:recipe_serializer>
+[04Dec2020 10:55:15.483] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:recipe_serializer>
+[04Dec2020 10:55:15.484] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:recipe_serializer
+[04Dec2020 10:55:15.484] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:recipe_serializer
+[04Dec2020 10:55:15.485] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[04Dec2020 10:55:15.503] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid biomass : RegistryEvent.Register<minecraft:schedule>
+[04Dec2020 10:55:15.503] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid biomass : RegistryEvent.Register<minecraft:schedule>
+[04Dec2020 10:55:15.503] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:schedule>
+[04Dec2020 10:55:15.503] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:schedule>
+[04Dec2020 10:55:15.503] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:schedule
+[04Dec2020 10:55:15.504] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:schedule
+[04Dec2020 10:55:15.504] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[04Dec2020 10:55:15.504] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid biomass : RegistryEvent.Register<minecraft:sensor_type>
+[04Dec2020 10:55:15.504] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid biomass : RegistryEvent.Register<minecraft:sensor_type>
+[04Dec2020 10:55:15.504] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:sensor_type>
+[04Dec2020 10:55:15.504] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:sensor_type>
+[04Dec2020 10:55:15.504] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:sensor_type
+[04Dec2020 10:55:15.504] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:sensor_type
+[04Dec2020 10:55:15.505] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[04Dec2020 10:55:15.505] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid biomass : RegistryEvent.Register<minecraft:sound_event>
+[04Dec2020 10:55:15.505] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid biomass : RegistryEvent.Register<minecraft:sound_event>
+[04Dec2020 10:55:15.505] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:sound_event>
+[04Dec2020 10:55:15.505] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:sound_event>
+[04Dec2020 10:55:15.505] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:sound_event
+[04Dec2020 10:55:15.506] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:sound_event
+[04Dec2020 10:55:15.506] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[04Dec2020 10:55:15.506] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid biomass : RegistryEvent.Register<minecraft:stat_type>
+[04Dec2020 10:55:15.506] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid biomass : RegistryEvent.Register<minecraft:stat_type>
+[04Dec2020 10:55:15.506] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:stat_type>
+[04Dec2020 10:55:15.506] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:stat_type>
+[04Dec2020 10:55:15.507] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:stat_type
+[04Dec2020 10:55:15.507] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:stat_type
+[04Dec2020 10:55:15.507] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[04Dec2020 10:55:15.507] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid biomass : RegistryEvent.Register<minecraft:surface_builder>
+[04Dec2020 10:55:15.507] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid biomass : RegistryEvent.Register<minecraft:surface_builder>
+[04Dec2020 10:55:15.507] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:surface_builder>
+[04Dec2020 10:55:15.507] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:surface_builder>
+[04Dec2020 10:55:15.507] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:surface_builder
+[04Dec2020 10:55:15.508] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:surface_builder
+[04Dec2020 10:55:15.508] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[04Dec2020 10:55:15.508] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid biomass : RegistryEvent.Register<minecraft:villager_profession>
+[04Dec2020 10:55:15.508] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid biomass : RegistryEvent.Register<minecraft:villager_profession>
+[04Dec2020 10:55:15.508] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:villager_profession>
+[04Dec2020 10:55:15.508] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:villager_profession>
+[04Dec2020 10:55:15.508] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:villager_profession
+[04Dec2020 10:55:15.508] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:villager_profession
+[04Dec2020 10:55:15.684] [Render thread/DEBUG] [net.minecraftforge.fml.client.ClientModLoader/CORE]: Generating PackInfo named mod:biomass for mod file C:\Users\Trevor Smouter\MCreatorWorkspaces\biomass\build\resources\main
+[04Dec2020 10:55:15.685] [Render thread/DEBUG] [net.minecraftforge.fml.client.ClientModLoader/CORE]: Generating PackInfo named mod:forge for mod file C:\Users\Trevor Smouter\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1\forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-recomp.jar
+[04Dec2020 10:55:15.696] [Render thread/DEBUG] [net.minecraftforge.fml.client.ClientModLoader/CORE]: Generating PackInfo named mod:biomass for mod file C:\Users\Trevor Smouter\MCreatorWorkspaces\biomass\build\resources\main
+[04Dec2020 10:55:15.697] [Render thread/DEBUG] [net.minecraftforge.fml.client.ClientModLoader/CORE]: Generating PackInfo named mod:forge for mod file C:\Users\Trevor Smouter\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1\forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-recomp.jar
+[04Dec2020 10:55:15.710] [Render thread/DEBUG] [net.minecraftforge.fml.ForgeI18n/CORE]: Loading I18N data entries: 0
+[04Dec2020 10:55:19.885] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[04Dec2020 10:55:20.047] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[04Dec2020 10:55:20.073] [Server-Worker-3/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type CLIENT
+[04Dec2020 10:55:20.075] [Server-Worker-3/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for C:\Users\Trevor Smouter\MCreatorWorkspaces\biomass\run\config\forge-client.toml
+[04Dec2020 10:55:20.082] [Server-Worker-3/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file C:\Users\Trevor Smouter\MCreatorWorkspaces\biomass\run\config\forge-client.toml
+[04Dec2020 10:55:20.086] [Server-Worker-3/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file C:\Users\Trevor Smouter\MCreatorWorkspaces\biomass\run\config\forge-client.toml for changes
+[04Dec2020 10:55:20.088] [Server-Worker-3/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-client.toml
+[04Dec2020 10:55:20.089] [Server-Worker-3/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type COMMON
+[04Dec2020 10:55:20.089] [Server-Worker-3/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching parallel event LifecycleEvent:COMMON_SETUP
+[04Dec2020 10:55:20.090] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid biomass : FMLCommonSetupEvent
+[04Dec2020 10:55:20.090] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : FMLCommonSetupEvent
+[04Dec2020 10:55:20.091] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid biomass : FMLCommonSetupEvent
+[04Dec2020 10:55:20.091] [Thread-1/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file forge-client.toml changed, sending notifies
+[04Dec2020 10:55:20.091] [Thread-1/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Forge config just got changed on the file system!
+[04Dec2020 10:55:20.276] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : FMLCommonSetupEvent
+[04Dec2020 10:55:20.277] [Server-Worker-3/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching parallel event LifecycleEvent:SIDED_SETUP
+[04Dec2020 10:55:20.278] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid biomass : FMLClientSetupEvent
+[04Dec2020 10:55:20.278] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid biomass : FMLClientSetupEvent
+[04Dec2020 10:55:20.278] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : FMLClientSetupEvent
+[04Dec2020 10:55:20.278] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : FMLClientSetupEvent
+[04Dec2020 10:55:20.306] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[04Dec2020 10:55:20.697] [Forge Version Check/DEBUG] [net.minecraftforge.fml.VersionChecker/]: [forge] Received version check data:
+{
+  "homepage": "http://files.minecraftforge.net/maven/net/minecraftforge/forge/",
+  "promos": {
+    "1.1-latest": "1.3.2.6",
+    "1.10-latest": "12.18.0.2000",
+    "1.10.2-latest": "12.18.3.2511",
+    "1.10.2-recommended": "12.18.3.2185",
+    "1.11-latest": "13.19.1.2199",
+    "1.11-recommended": "13.19.1.2189",
+    "1.11.2-latest": "13.20.1.2588",
+    "1.11.2-recommended": "13.20.1.2386",
+    "1.12-latest": "14.21.1.2443",
+    "1.12-recommended": "14.21.1.2387",
+    "1.12.1-latest": "14.22.1.2485",
+    "1.12.1-recommended": "14.22.1.2478",
+    "1.12.2-latest": "14.23.5.2854",
+    "1.12.2-recommended": "14.23.5.2854",
+    "1.13.2-latest": "25.0.219",
+    "1.14.2-latest": "26.0.63",
+    "1.14.3-latest": "27.0.60",
+    "1.14.4-latest": "28.2.23",
+    "1.14.4-recommended": "28.2.0",
+    "1.15-latest": "29.0.4",
+    "1.15.1-latest": "30.0.51",
+    "1.15.2-latest": "31.2.47",
+    "1.15.2-recommended": "31.2.0",
+    "1.16.1-latest": "32.0.108",
+    "1.16.2-latest": "33.0.61",
+    "1.16.3-latest": "34.1.42",
+    "1.16.3-recommended": "34.1.0",
+    "1.16.4-latest": "35.1.7",
+    "1.16.4-recommended": "35.1.0",
+    "1.5.2-latest": "7.8.1.738",
+    "1.5.2-recommended": "7.8.1.737",
+    "1.6.1-latest": "8.9.0.775",
+    "1.6.2-latest": "9.10.1.871",
+    "1.6.2-recommended": "9.10.1.871",
+    "1.6.3-latest": "9.11.0.878",
+    "1.6.4-latest": "9.11.1.1345",
+    "1.6.4-recommended": "9.11.1.1345",
+    "1.7.10-latest": "10.13.4.1614",
+    "1.7.10-latest-1.7.10": "10.13.2.1343",
+    "1.7.10-recommended": "10.13.4.1558",
+    "1.7.2-latest": "10.12.2.1147",
+    "1.7.2-recommended": "10.12.2.1121",
+    "1.8-latest": "11.14.4.1577",
+    "1.8-recommended": "11.14.4.1563",
+    "1.8.8-latest": "11.15.0.1655",
+    "1.8.9-latest": "11.15.1.2318",
+    "1.8.9-recommended": "11.15.1.1722",
+    "1.9-latest": "12.16.0.1942",
+    "1.9-recommended": "12.16.1.1887",
+    "1.9.4-latest": "12.17.0.2051",
+    "1.9.4-recommended": "12.17.0.1976",
+    "latest-1.7.10": "10.13.2.1343"
+  }
+}
+[04Dec2020 10:55:20.699] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 31.2.0 Target: null
+[04Dec2020 10:55:25.957] [Server-Worker-4/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching parallel event LifecycleEvent:ENQUEUE_IMC
+[04Dec2020 10:55:25.962] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : InterModEnqueueEvent
+[04Dec2020 10:55:25.962] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid biomass : InterModEnqueueEvent
+[04Dec2020 10:55:25.962] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid biomass : InterModEnqueueEvent
+[04Dec2020 10:55:25.962] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : InterModEnqueueEvent
+[04Dec2020 10:55:25.963] [Server-Worker-4/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching parallel event LifecycleEvent:PROCESS_IMC
+[04Dec2020 10:55:25.967] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid biomass : InterModProcessEvent
+[04Dec2020 10:55:25.967] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : InterModProcessEvent
+[04Dec2020 10:55:25.967] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid biomass : InterModProcessEvent
+[04Dec2020 10:55:25.967] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : InterModProcessEvent
+[04Dec2020 10:55:25.968] [Server-Worker-4/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching parallel event LifecycleEvent:COMPLETE
+[04Dec2020 10:55:25.972] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid biomass : FMLLoadCompleteEvent
+[04Dec2020 10:55:25.972] [modloading-worker-4/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : FMLLoadCompleteEvent
+[04Dec2020 10:55:25.973] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid biomass : FMLLoadCompleteEvent
+[04Dec2020 10:55:25.973] [modloading-worker-4/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : FMLLoadCompleteEvent
+[04Dec2020 10:55:25.973] [Server-Worker-4/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Freezing registries
+[04Dec2020 10:55:25.977] [Server-Worker-4/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Block Sync: FROZEN -> ACTIVE
+[04Dec2020 10:55:25.996] [Server-Worker-4/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Fluid Sync: FROZEN -> ACTIVE
+[04Dec2020 10:55:25.996] [Server-Worker-4/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item Sync: FROZEN -> ACTIVE
+[04Dec2020 10:55:26.008] [Server-Worker-4/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Effect Sync: FROZEN -> ACTIVE
+[04Dec2020 10:55:26.009] [Server-Worker-4/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Biome Sync: FROZEN -> ACTIVE
+[04Dec2020 10:55:26.010] [Server-Worker-4/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry SoundEvent Sync: FROZEN -> ACTIVE
+[04Dec2020 10:55:26.016] [Server-Worker-4/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Potion Sync: FROZEN -> ACTIVE
+[04Dec2020 10:55:26.017] [Server-Worker-4/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Enchantment Sync: FROZEN -> ACTIVE
+[04Dec2020 10:55:26.017] [Server-Worker-4/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry EntityType Sync: FROZEN -> ACTIVE
+[04Dec2020 10:55:26.018] [Server-Worker-4/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry TileEntityType Sync: FROZEN -> ACTIVE
+[04Dec2020 10:55:26.018] [Server-Worker-4/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry ParticleType Sync: FROZEN -> ACTIVE
+[04Dec2020 10:55:26.019] [Server-Worker-4/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry ContainerType Sync: FROZEN -> ACTIVE
+[04Dec2020 10:55:26.019] [Server-Worker-4/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry PaintingType Sync: FROZEN -> ACTIVE
+[04Dec2020 10:55:26.019] [Server-Worker-4/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry IRecipeSerializer Sync: FROZEN -> ACTIVE
+[04Dec2020 10:55:26.020] [Server-Worker-4/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry StatType Sync: FROZEN -> ACTIVE
+[04Dec2020 10:55:26.020] [Server-Worker-4/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry VillagerProfession Sync: FROZEN -> ACTIVE
+[04Dec2020 10:55:26.020] [Server-Worker-4/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry PointOfInterestType Sync: FROZEN -> ACTIVE
+[04Dec2020 10:55:26.021] [Server-Worker-4/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry MemoryModuleType Sync: FROZEN -> ACTIVE
+[04Dec2020 10:55:26.021] [Server-Worker-4/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry SensorType Sync: FROZEN -> ACTIVE
+[04Dec2020 10:55:26.021] [Server-Worker-4/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Schedule Sync: FROZEN -> ACTIVE
+[04Dec2020 10:55:26.021] [Server-Worker-4/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Activity Sync: FROZEN -> ACTIVE
+[04Dec2020 10:55:26.022] [Server-Worker-4/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry WorldCarver Sync: FROZEN -> ACTIVE
+[04Dec2020 10:55:26.022] [Server-Worker-4/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry SurfaceBuilder Sync: FROZEN -> ACTIVE
+[04Dec2020 10:55:26.022] [Server-Worker-4/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Feature Sync: FROZEN -> ACTIVE
+[04Dec2020 10:55:26.022] [Server-Worker-4/DEBUG] [net.minecraftforge.registries.ClearableRegistry/REGISTRY]: minecraft:feature: Clearing registry
+[04Dec2020 10:55:26.023] [Server-Worker-4/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Placement Sync: FROZEN -> ACTIVE
+[04Dec2020 10:55:26.024] [Server-Worker-4/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry BiomeProviderType Sync: FROZEN -> ACTIVE
+[04Dec2020 10:55:26.024] [Server-Worker-4/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry ChunkGeneratorType Sync: FROZEN -> ACTIVE
+[04Dec2020 10:55:26.024] [Server-Worker-4/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry ChunkStatus Sync: FROZEN -> ACTIVE
+[04Dec2020 10:55:26.024] [Server-Worker-4/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry ModDimension Sync: FROZEN -> ACTIVE
+[04Dec2020 10:55:26.025] [Server-Worker-4/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry DataSerializerEntry Sync: FROZEN -> ACTIVE
+[04Dec2020 10:55:26.025] [Server-Worker-4/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry GlobalLootModifierSerializer Sync: FROZEN -> ACTIVE
+[04Dec2020 10:55:26.399] [Server-Worker-4/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: All registries frozen
+[04Dec2020 10:55:26.702] [Render thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
+[04Dec2020 10:55:26.703] [Render thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
+[04Dec2020 10:55:26.954] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x512x2 minecraft:textures/atlas/blocks.png-atlas
+[04Dec2020 10:55:27.247] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x2 minecraft:textures/atlas/signs.png-atlas
+[04Dec2020 10:55:27.248] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
+[04Dec2020 10:55:27.252] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
+[04Dec2020 10:55:27.257] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
+[04Dec2020 10:55:27.258] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
+[04Dec2020 10:55:27.260] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
+[04Dec2020 10:55:27.937] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[04Dec2020 10:55:27.953] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[04Dec2020 10:55:27.960] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[04Dec2020 10:55:29.027] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[04Dec2020 10:56:57.268] [Render thread/INFO] [net.minecraft.client.gui.screen.ConnectingScreen/]: Connecting to game-bungee.prod.minehut.com., 25565
+[04Dec2020 10:56:57.331] [Netty Client IO #1/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Starting new vanilla network connection.
+[04Dec2020 10:57:11.908] [Render thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save BioMass
+[04Dec2020 10:57:12.442] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[04Dec2020 10:57:12.443] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[04Dec2020 10:57:12.443] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[04Dec2020 10:57:12.444] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[04Dec2020 10:57:12.446] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[04Dec2020 10:57:12.652] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.15.2
+[04Dec2020 10:57:12.652] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Generating keypair
+[04Dec2020 10:57:12.757] [Server thread/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Making serverconfig directory : .\saves\BioMass\serverconfig
+[04Dec2020 10:57:12.758] [Server thread/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Created serverconfig directory : .\saves\BioMass\serverconfig
+[04Dec2020 10:57:12.758] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type SERVER
+[04Dec2020 10:57:12.758] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for .\saves\BioMass\serverconfig\forge-server.toml
+[04Dec2020 10:57:12.760] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file .\saves\BioMass\serverconfig\forge-server.toml
+[04Dec2020 10:57:12.761] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file .\saves\BioMass\serverconfig\forge-server.toml for changes
+[04Dec2020 10:57:12.761] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\saves\BioMass\serverconfig\forge-server.toml is not correct. Correcting
+[04Dec2020 10:57:12.762] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to SimpleCommentedConfig:{}
+[04Dec2020 10:57:12.762] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to false
+[04Dec2020 10:57:12.763] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringTileEntities was corrected from null to false
+[04Dec2020 10:57:12.763] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to false
+[04Dec2020 10:57:12.763] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to 0.1
+[04Dec2020 10:57:12.763] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to 0.05
+[04Dec2020 10:57:12.764] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.logCascadingWorldGeneration was corrected from null to true
+[04Dec2020 10:57:12.764] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fixVanillaCascading was corrected from null to false
+[04Dec2020 10:57:12.764] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.dimensionUnloadQueueDelay was corrected from null to 0
+[04Dec2020 10:57:12.764] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.clumpingThreshold was corrected from null to 64
+[04Dec2020 10:57:12.764] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.treatEmptyTagsAsAir was corrected from null to false
+[04Dec2020 10:57:12.764] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fixAdvancementLoading was corrected from null to true
+[04Dec2020 10:57:12.766] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-server.toml
+[04Dec2020 10:57:12.861] [Server thread/DEBUG] [net.minecraftforge.common.DimensionManager/DIMS]: Reading Dimension Entries.
+[04Dec2020 10:57:12.862] [Server thread/DEBUG] [net.minecraftforge.registries.ClearableRegistry/REGISTRY]: minecraft:dimension_type: Clearing registry
+[04Dec2020 10:57:12.863] [Server thread/DEBUG] [net.minecraftforge.common.DimensionManager/DIMS]: Registering vanilla entry ID: 1 Name: minecraft:overworld Value: DimensionType{null}
+[04Dec2020 10:57:12.863] [Server thread/DEBUG] [net.minecraftforge.common.DimensionManager/DIMS]: Registering vanilla entry ID: 2 Name: minecraft:the_end Value: DimensionType{null}
+[04Dec2020 10:57:12.863] [Server thread/DEBUG] [net.minecraftforge.common.DimensionManager/DIMS]: Registering vanilla entry ID: 0 Name: minecraft:the_nether Value: DimensionType{null}
+[04Dec2020 10:57:12.867] [Server thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this SERVER instance
+[04Dec2020 10:57:12.904] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Block Sync: ACTIVE -> STAGING
+[04Dec2020 10:57:12.910] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Fluid Sync: ACTIVE -> STAGING
+[04Dec2020 10:57:12.910] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item Sync: ACTIVE -> STAGING
+[04Dec2020 10:57:12.915] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Effect Sync: ACTIVE -> STAGING
+[04Dec2020 10:57:12.915] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Biome Sync: ACTIVE -> STAGING
+[04Dec2020 10:57:12.916] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry SoundEvent Sync: ACTIVE -> STAGING
+[04Dec2020 10:57:12.920] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Potion Sync: ACTIVE -> STAGING
+[04Dec2020 10:57:12.921] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Enchantment Sync: ACTIVE -> STAGING
+[04Dec2020 10:57:12.921] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry EntityType Sync: ACTIVE -> STAGING
+[04Dec2020 10:57:12.922] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry TileEntityType Sync: ACTIVE -> STAGING
+[04Dec2020 10:57:12.922] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry ParticleType Sync: ACTIVE -> STAGING
+[04Dec2020 10:57:12.922] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry ContainerType Sync: ACTIVE -> STAGING
+[04Dec2020 10:57:12.922] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry PaintingType Sync: ACTIVE -> STAGING
+[04Dec2020 10:57:12.923] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry IRecipeSerializer Sync: ACTIVE -> STAGING
+[04Dec2020 10:57:12.923] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry StatType Sync: ACTIVE -> STAGING
+[04Dec2020 10:57:12.923] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry VillagerProfession Sync: ACTIVE -> STAGING
+[04Dec2020 10:57:12.923] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry PointOfInterestType Sync: ACTIVE -> STAGING
+[04Dec2020 10:57:12.923] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry MemoryModuleType Sync: ACTIVE -> STAGING
+[04Dec2020 10:57:12.923] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry SensorType Sync: ACTIVE -> STAGING
+[04Dec2020 10:57:12.923] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Schedule Sync: ACTIVE -> STAGING
+[04Dec2020 10:57:12.924] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Activity Sync: ACTIVE -> STAGING
+[04Dec2020 10:57:12.924] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry WorldCarver Sync: ACTIVE -> STAGING
+[04Dec2020 10:57:12.924] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry SurfaceBuilder Sync: ACTIVE -> STAGING
+[04Dec2020 10:57:12.924] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Feature Sync: ACTIVE -> STAGING
+[04Dec2020 10:57:12.924] [Server thread/DEBUG] [net.minecraftforge.registries.ClearableRegistry/REGISTRY]: minecraft:feature: Clearing registry
+[04Dec2020 10:57:12.925] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Placement Sync: ACTIVE -> STAGING
+[04Dec2020 10:57:12.925] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry BiomeProviderType Sync: ACTIVE -> STAGING
+[04Dec2020 10:57:12.926] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry ChunkGeneratorType Sync: ACTIVE -> STAGING
+[04Dec2020 10:57:12.926] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry ChunkStatus Sync: ACTIVE -> STAGING
+[04Dec2020 10:57:12.926] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry ModDimension Sync: ACTIVE -> STAGING
+[04Dec2020 10:57:12.926] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry DataSerializerEntry Sync: ACTIVE -> STAGING
+[04Dec2020 10:57:12.926] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry GlobalLootModifierSerializer Sync: ACTIVE -> STAGING
+[04Dec2020 10:57:13.033] [Server thread/DEBUG] [net.minecraftforge.registries.ObjectHolderRegistry/REGISTRIES]: Applying holder lookups
+[04Dec2020 10:57:13.037] [Server thread/DEBUG] [net.minecraftforge.registries.ObjectHolderRegistry/REGISTRIES]: Holder lookups applied
+[04Dec2020 10:57:13.042] [Server thread/DEBUG] [net.minecraftforge.fml.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:biomass for mod file C:\Users\Trevor Smouter\MCreatorWorkspaces\biomass\build\resources\main
+[04Dec2020 10:57:13.042] [Server thread/DEBUG] [net.minecraftforge.fml.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:forge for mod file C:\Users\Trevor Smouter\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1\forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-recomp.jar
+[04Dec2020 10:57:13.044] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack vanilla, loading it automatically
+[04Dec2020 10:57:13.044] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, main, forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-recomp.jar
+[04Dec2020 10:57:14.720] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
+[04Dec2020 10:57:16.736] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 825 advancements
+[04Dec2020 10:57:17.693] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Unable to find spawn biome
+[04Dec2020 10:57:39.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[04Dec2020 10:57:39.840] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 93%
+[04Dec2020 10:57:40.352] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 93%
+[04Dec2020 10:57:40.904] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 93%
+[04Dec2020 10:57:41.349] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 95%
+[04Dec2020 10:57:41.820] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 98%
+[04Dec2020 10:57:42.319] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 100%
+[04Dec2020 10:57:42.815] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 100%
+[04Dec2020 10:57:43.321] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 100%
+[04Dec2020 10:57:43.825] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 100%
+[04Dec2020 10:57:44.328] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 100%
+[04Dec2020 10:57:44.818] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 100%
+[04Dec2020 10:57:45.327] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 100%
+[04Dec2020 10:57:45.821] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 100%
+[04Dec2020 10:57:46.322] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 100%
+[04Dec2020 10:57:46.966] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 100%
+[04Dec2020 10:57:47.453] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 100%
+[04Dec2020 10:57:47.567] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 7756 ms
+[04Dec2020 10:57:47.632] [Server thread/DEBUG] [net.minecraftforge.common.DimensionManager/DIMS]: Queueing dimension -1 to unload
+[04Dec2020 10:57:48.454] [Server thread/DEBUG] [net.minecraftforge.common.DimensionManager/DIMS]: Queueing dimension 1 to unload
+[04Dec2020 10:57:48.461] [Server thread/DEBUG] [net.minecraftforge.common.DimensionManager/DIMS]: Unloading dimension -1
+[04Dec2020 10:57:48.470] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04Dec2020 10:57:48.472] [Server thread/DEBUG] [net.minecraftforge.common.DimensionManager/DIMS]: Unloading dimension 1
+[04Dec2020 10:57:48.472] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04Dec2020 10:57:48.476] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Changing view distance to 4, from 10
+[04Dec2020 10:57:48.542] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Starting local connection.
+[04Dec2020 10:57:48.565] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Starting local connection.
+[04Dec2020 10:57:48.832] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'net.minecraftforge.fml.network.FMLHandshakeMessages$S2CModList' to 'fml:handshake' sequence 0
+[04Dec2020 10:57:48.862] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 0
+[04Dec2020 10:57:48.865] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Logging into server with mod list [minecraft, biomass, forge]
+[04Dec2020 10:57:48.866] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:loginwrapper' : Version test of 'FML2' from server : ACCEPTED
+[04Dec2020 10:57:48.866] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:handshake' : Version test of 'FML2' from server : ACCEPTED
+[04Dec2020 10:57:48.867] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'biomass:biomass' : Version test of '1' from server : ACCEPTED
+[04Dec2020 10:57:48.867] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:unregister' : Version test of 'FML2' from server : ACCEPTED
+[04Dec2020 10:57:48.867] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:play' : Version test of 'FML2' from server : ACCEPTED
+[04Dec2020 10:57:48.867] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:register' : Version test of 'FML2' from server : ACCEPTED
+[04Dec2020 10:57:48.867] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from server
+[04Dec2020 10:57:48.869] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Dispatching wrapped packet reply for channel fml:handshake with index 0
+[04Dec2020 10:57:48.869] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Accepted server connection
+[04Dec2020 10:57:48.870] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 0
+[04Dec2020 10:57:48.870] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 0 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SModListReply
+[04Dec2020 10:57:48.871] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client connection with modlist [minecraft, biomass, forge]
+[04Dec2020 10:57:48.871] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/REGISTRIES]: Expecting 19 registries: [minecraft:recipe_serializer, minecraft:sound_event, minecraft:particle_type, minecraft:villager_profession, minecraft:item, minecraft:potion, minecraft:block_entity_type, minecraft:block, minecraft:mob_effect, minecraft:stat_type, forge:moddimensions, minecraft:biome, minecraft:menu, minecraft:enchantment, minecraft:motive, minecraft:feature, minecraft:dataserializers, minecraft:fluid, minecraft:entity_type]
+[04Dec2020 10:57:48.871] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:loginwrapper' : Version test of 'FML2' from client : ACCEPTED
+[04Dec2020 10:57:48.871] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:handshake' : Version test of 'FML2' from client : ACCEPTED
+[04Dec2020 10:57:48.871] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'biomass:biomass' : Version test of '1' from client : ACCEPTED
+[04Dec2020 10:57:48.871] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:unregister' : Version test of 'FML2' from client : ACCEPTED
+[04Dec2020 10:57:48.872] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:play' : Version test of 'FML2' from client : ACCEPTED
+[04Dec2020 10:57:48.872] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:register' : Version test of 'FML2' from client : ACCEPTED
+[04Dec2020 10:57:48.872] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from client
+[04Dec2020 10:57:48.872] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Accepted client connection mod list
+[04Dec2020 10:57:49.060] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Config forge-server.toml' to 'fml:handshake' sequence 1
+[04Dec2020 10:57:49.060] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 1
+[04Dec2020 10:57:49.061] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received config sync from server
+[04Dec2020 10:57:49.061] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Dispatching wrapped packet reply for channel fml:handshake with index 1
+[04Dec2020 10:57:49.062] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 1
+[04Dec2020 10:57:49.062] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 1 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[04Dec2020 10:57:49.062] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[04Dec2020 10:57:49.147] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Handshake complete!
+[04Dec2020 10:57:49.171] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
+[04Dec2020 10:57:49.255] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@532d977b
+[04Dec2020 10:57:49.275] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:42efc72c] logged in with entity id 340 at (-178.5, 64.0, -76.5)
+[04Dec2020 10:57:49.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[04Dec2020 10:57:49.911] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[04Dec2020 10:57:49.932] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'BioMass'/minecraft:overworld
+[04Dec2020 10:57:50.012] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 0 advancements
+[04Dec2020 10:57:52.604] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save BioMass
+[04Dec2020 10:57:52.669] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4455ms or 89 ticks behind
+[04Dec2020 10:58:13.945] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Creative Mode]
+[04Dec2020 10:58:13.952] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Set own game mode to Creative Mode
+[04Dec2020 10:58:21.375] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2 advancements
+[04Dec2020 10:58:42.367] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 5 advancements
+[04Dec2020 11:00:33.464] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[04Dec2020 11:00:33.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'BioMass'/minecraft:overworld
+[04Dec2020 11:00:34.218] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save BioMass
+[04Dec2020 11:00:38.220] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 17 advancements
+[04Dec2020 11:00:43.578] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 23 advancements
+[04Dec2020 11:01:06.772] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 24 advancements
+[04Dec2020 11:01:57.519] [Server thread/INFO] [net.minecraft.entity.Entity/]: Villager VillagerEntity['Villager'/30, l='BioMass', x=-222.85, y=19.00, z=-122.15] died, message: 'Villager hit the ground too hard whilst trying to escape Dev'
+[04Dec2020 11:01:57.525] [Render thread/INFO] [net.minecraft.entity.Entity/]: Villager VillagerEntity['Villager'/30, l='MpServer', x=-222.85, y=22.44, z=-122.35] died, message: 'Villager died'
+[04Dec2020 11:01:57.539] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 38 advancements
+[04Dec2020 11:02:46.623] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 38 advancements
+[04Dec2020 11:02:51.014] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[04Dec2020 11:02:51.020] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'BioMass'/minecraft:overworld
+[04Dec2020 11:02:51.468] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save BioMass
+[04Dec2020 11:02:52.984] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: Disconnected
+[04Dec2020 11:02:52.985] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[04Dec2020 11:02:52.998] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
+[04Dec2020 11:02:53.030] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[04Dec2020 11:02:53.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[04Dec2020 11:02:53.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[04Dec2020 11:02:53.032] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'BioMass'/minecraft:overworld
+[04Dec2020 11:02:53.339] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (BioMass): All chunks are saved
+[04Dec2020 11:02:53.340] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save BioMass
+[04Dec2020 11:02:53.366] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (BioMass): All chunks are saved
+[04Dec2020 11:02:53.599] [Server thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Reverting to frozen data state.
+[04Dec2020 11:02:53.600] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Block Sync: ACTIVE -> FROZEN
+[04Dec2020 11:02:53.607] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Fluid Sync: ACTIVE -> FROZEN
+[04Dec2020 11:02:53.607] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item Sync: ACTIVE -> FROZEN
+[04Dec2020 11:02:53.613] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Effect Sync: ACTIVE -> FROZEN
+[04Dec2020 11:02:53.614] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Biome Sync: ACTIVE -> FROZEN
+[04Dec2020 11:02:53.615] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry SoundEvent Sync: ACTIVE -> FROZEN
+[04Dec2020 11:02:53.623] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Potion Sync: ACTIVE -> FROZEN
+[04Dec2020 11:02:53.624] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Enchantment Sync: ACTIVE -> FROZEN
+[04Dec2020 11:02:53.625] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry EntityType Sync: ACTIVE -> FROZEN
+[04Dec2020 11:02:53.626] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry TileEntityType Sync: ACTIVE -> FROZEN
+[04Dec2020 11:02:53.626] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry ParticleType Sync: ACTIVE -> FROZEN
+[04Dec2020 11:02:53.628] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry ContainerType Sync: ACTIVE -> FROZEN
+[04Dec2020 11:02:53.628] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry PaintingType Sync: ACTIVE -> FROZEN
+[04Dec2020 11:02:53.628] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry IRecipeSerializer Sync: ACTIVE -> FROZEN
+[04Dec2020 11:02:53.629] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry StatType Sync: ACTIVE -> FROZEN
+[04Dec2020 11:02:53.629] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry VillagerProfession Sync: ACTIVE -> FROZEN
+[04Dec2020 11:02:53.629] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry PointOfInterestType Sync: ACTIVE -> FROZEN
+[04Dec2020 11:02:53.630] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry MemoryModuleType Sync: ACTIVE -> FROZEN
+[04Dec2020 11:02:53.630] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry SensorType Sync: ACTIVE -> FROZEN
+[04Dec2020 11:02:53.631] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Schedule Sync: ACTIVE -> FROZEN
+[04Dec2020 11:02:53.632] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Activity Sync: ACTIVE -> FROZEN
+[04Dec2020 11:02:53.632] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry WorldCarver Sync: ACTIVE -> FROZEN
+[04Dec2020 11:02:53.632] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry SurfaceBuilder Sync: ACTIVE -> FROZEN
+[04Dec2020 11:02:53.632] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Feature Sync: ACTIVE -> FROZEN
+[04Dec2020 11:02:53.632] [Server thread/DEBUG] [net.minecraftforge.registries.ClearableRegistry/REGISTRY]: minecraft:feature: Clearing registry
+[04Dec2020 11:02:53.633] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Placement Sync: ACTIVE -> FROZEN
+[04Dec2020 11:02:53.634] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry BiomeProviderType Sync: ACTIVE -> FROZEN
+[04Dec2020 11:02:53.634] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry ChunkGeneratorType Sync: ACTIVE -> FROZEN
+[04Dec2020 11:02:53.634] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry ChunkStatus Sync: ACTIVE -> FROZEN
+[04Dec2020 11:02:53.634] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry ModDimension Sync: ACTIVE -> FROZEN
+[04Dec2020 11:02:53.635] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry DataSerializerEntry Sync: ACTIVE -> FROZEN
+[04Dec2020 11:02:53.635] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry GlobalLootModifierSerializer Sync: ACTIVE -> FROZEN
+[04Dec2020 11:02:53.764] [Server thread/DEBUG] [net.minecraftforge.registries.ObjectHolderRegistry/REGISTRIES]: Applying holder lookups
+[04Dec2020 11:02:53.767] [Server thread/DEBUG] [net.minecraftforge.registries.ObjectHolderRegistry/REGISTRIES]: Holder lookups applied
+[04Dec2020 11:02:53.767] [Server thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Frozen state restored.
+[04Dec2020 11:02:53.768] [Server thread/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing serverconfig directory : .\saves\BioMass\serverconfig
+[04Dec2020 11:02:53.768] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Unloading configs type SERVER
+[04Dec2020 11:02:53.889] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
