@@ -1,0 +1,318 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Biomass1",
+      "type": "fuel",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "biomass_1"
+    },
+    {
+      "name": "Biomass2",
+      "type": "fuel",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "biomass_2"
+    },
+    {
+      "name": "Biomass3",
+      "type": "fuel",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "biomass_3"
+    },
+    {
+      "name": "Biomass4",
+      "type": "fuel",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "biomass_4"
+    },
+    {
+      "name": "Biomass5",
+      "type": "fuel",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "biomass_5"
+    },
+    {
+      "name": "Biomass6",
+      "type": "fuel",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "biomass_6"
+    },
+    {
+      "name": "Biomass7",
+      "type": "fuel",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "biomass_7"
+    },
+    {
+      "name": "Biomass8",
+      "type": "fuel",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "biomass_8"
+    },
+    {
+      "name": "Biomass9",
+      "type": "fuel",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "biomass_9"
+    },
+    {
+      "name": "Biomass10",
+      "type": "fuel",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "biomass_10"
+    },
+    {
+      "name": "Biomass11",
+      "type": "fuel",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "biomass_11"
+    },
+    {
+      "name": "Biomass12",
+      "type": "fuel",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "biomass_12"
+    },
+    {
+      "name": "Biomass13",
+      "type": "fuel",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "biomass_13"
+    },
+    {
+      "name": "Biomass14",
+      "type": "fuel",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "biomass_14"
+    },
+    {
+      "name": "Biomass15",
+      "type": "fuel",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "biomass_15"
+    },
+    {
+      "name": "Biomass16",
+      "type": "fuel",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "biomass_16"
+    },
+    {
+      "name": "Biomass17",
+      "type": "fuel",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "biomass_17"
+    },
+    {
+      "name": "Biomass18",
+      "type": "fuel",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "biomass_18"
+    },
+    {
+      "name": "Biomass19",
+      "type": "fuel",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "biomass_19"
+    },
+    {
+      "name": "Biomass20",
+      "type": "fuel",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "biomass_20"
+    },
+    {
+      "name": "Biomass21",
+      "type": "fuel",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "biomass_21"
+    },
+    {
+      "name": "Biomass22",
+      "type": "fuel",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "biomass_22"
+    },
+    {
+      "name": "Biomass23",
+      "type": "fuel",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "biomass_23"
+    },
+    {
+      "name": "Biomass24",
+      "type": "fuel",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "biomass_24"
+    },
+    {
+      "name": "Biomass25",
+      "type": "fuel",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "biomass_25"
+    },
+    {
+      "name": "Biomass26",
+      "type": "fuel",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "biomass_26"
+    },
+    {
+      "name": "Biomass27",
+      "type": "fuel",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "biomass_27"
+    },
+    {
+      "name": "Biomass28",
+      "type": "fuel",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "biomass_28"
+    },
+    {
+      "name": "Biomass29",
+      "type": "fuel",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "biomass_29"
+    },
+    {
+      "name": "RefinedBiomass",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "refined_biomass"
+    },
+    {
+      "name": "RefinedBiomassRecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "refined_biomass_recipe"
+    },
+    {
+      "name": "Biomass30",
+      "type": "fuel",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "biomass_30"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.biomass.refined_biomass": "Refined Biomass"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "biomass",
+    "modName": "Biomass",
+    "version": "1.0.0",
+    "author": "RG2N",
+    "websiteURL": "https://mods.vectorstudios.tk",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "credits": "Thank you to everyone working for vectorstudios in the mods devision!",
+    "modElementsPackage": "net.vectormods.biomass",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000547520
+}
